@@ -1,0 +1,31 @@
+:root {
+    --peimary-color: #ad9885;
+    --sendary-color: #1f1d1d;
+    --peimary-hover: #C9B59C;
+    --sucess: #101010;
+    --warning: #10b981;
+    --denger: #ef4444;
+
+    --bg-main: #f8f8f8;
+    --bg-section: #ffff;
+    --bg-card: #ffff;
+
+    --text-primary: #1e291e;
+    --text-secondary: #000000;
+    --text-light: #94a394;
+
+    --footer-bg: #0f0f0f;
+    --footer-text: #cbcbcb;
+    --footer-link: #60a560;
+
+    --border: #e2e2e2;
+
+    --shadow-sm: 0 1px 3px rgba(37, 99, 235, .08), 0 1px 2px rgba(0, 0, 0, .06);
+    --shadow-md: 0 4px 16px rgba(37, 99, 235, .12), 0 2px 6px rgba(0, 0, 0, .06);
+    --shadow-lg: 0 10px 40px rgba(37, 99, 235, .16), 0 4px 12px rgba(0, 0, 0, .08);
+    --radius: 14px;
+    --transition: .28s cubic-bezier(.4, 0, .2, 1);
+
+
+
+}

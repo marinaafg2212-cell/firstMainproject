@@ -1,0 +1,161 @@
+/* base*/
+
+*,
+*::before,
+*::after {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'DM Sans' sans-serif;
+    background: var();
+    color: var();
+    font-size: 16px;
+    line-height: 1.65;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    color: var();
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+#top-header {
+    background-color: var(--peimary-color);
+    padding: 10px 0;
+    font-size: 13px;
+    color: #fff;
+}
+
+#top-header a {
+    color: #000000;
+    opacity: .88;
+    transition: opacity var(--transition);
+}
+
+#top-header a:hover {
+    opacity: 1;
+
+}
+
+.top-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+    background: #F9F8F6;
+    font-size: 13px;
+    transition: background var(--transition), transform var(--transition);
+}
+
+.top-social a:hover {
+    background: rgba(255, 255, 255, .3);
+    transform: translateY(-2px);
+}
+
+/* nvbar style*/
+
+#mainNav {
+    background: var(--bg-section);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 0;
+    transition: box-shadow var(--transition);
+}
+
+#mainNav.scrolled {
+    box-shadow: var(--shadow-md);
+}
+
+.navbar-brand {
+    font-family: "sora", sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--peimary-color) !important;
+    letter-spacing: -0.5px;
+
+}
+
+.navbar-brand span {
+    color: var(--text-primary);
+
+}
+
+.nav-link {
+    font-family: "sora", sans-serif;
+    font-weight: 500;
+    font-size: 0.88rem;
+    color: var(--text-primary) !important;
+    border-radius: 8px;
+    transition: color var(--transition);
+    background: var(--transition);
+
+
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--peimary-color) !important;
+    background: rgba(37, 99, 193, 0.07);
+
+
+}
+
+.btn-nav-signin {
+    font-family: "segoe UI", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--peimary-color);
+    border-radius: 9px;
+    padding: 8px 22px;
+    transition: all var(--transition);
+}
+
+.btn-nav-signin:hover {
+    background: var(--transition);
+    transform: translateY(-1px);
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, .3);
+}
+
+.btn-nav-BuyuS {
+    font-family: "segoe UI", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--peimary-color);
+    border-radius: 9px;
+    padding: 8px 22px;
+    transition: all var(--transition);
+}
+
+.btn-nav-Buyus:hover {
+    background: var(--transition);
+    transform: translateY(-1px);
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, .3);
+}
+
+*/ .offcanvas-header {
+    background-color: var(--peimary-color);
+    color: #fff;
+}
+
+.offcanvas-title {
+    font-family: 'sego UI' sans-serif;
+    font-weight: 800;
+}
