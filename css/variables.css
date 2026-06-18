@@ -2,6 +2,7 @@
     --peimary-color: #ad9885;
     --sendary-color: #1f1d1d;
     --peimary-hover: #C9B59C;
+    --first-background:#f4f3f2;
     --sucess: #101010;
     --warning: #10b981;
     --denger: #ef4444;
@@ -22,7 +23,7 @@
 
     --shadow-sm: 0 1px 3px rgba(37, 99, 235, .08), 0 1px 2px rgba(0, 0, 0, .06);
     --shadow-md: 0 4px 16px rgba(37, 99, 235, .12), 0 2px 6px rgba(0, 0, 0, .06);
-    --shadow-lg: 0 10px 40px rgba(37, 99, 235, .16), 0 4px 12px rgba(0, 0, 0, .08);
+    --shadow-lg: 0 10px 40px #ebe2db, 0 4px 12px rgba(0, 0, 0, .08);
     --radius: 14px;
     --transition: .28s cubic-bezier(.4, 0, .2, 1);
 

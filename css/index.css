@@ -3,7 +3,7 @@
             #F9F8F4 10%,
             #F9F8F9 45%,
             #F9F8F6 100%);
-    padding: 50px 0 80px;
+    padding: 50px 0px;
     position: relative;
     overflow: hidden;
 
@@ -46,6 +46,7 @@
     color: #ad9885;
     position: relative;
     font-size: 5.5rem;
+
 }
 
 .hero-dese {
@@ -72,7 +73,7 @@
 
 }
 
-.bi bi-arrow-right {
+#bi-arrow-right {
     color: #EFE9E3;
     font-weight: 100px;
 
@@ -122,10 +123,18 @@
     min-height: 400px;
     align-items: right;
     width: 100%;
-    margin: 2px 20px;
-    padding: 10px 0;
+    margin: 2px 0px;
+    padding: 0px 0px;
 
 }
+
+.image-right:hover {
+    transform: translateY(-2px);
+
+
+}
+
+
 
 /* work */
 .stat-card {
@@ -135,10 +144,112 @@
 }
 
 /* feature */
+.section-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #EFE9E3;
+    color: var(--peimary-color);
+    font-family: 'sora' sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: .30em;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    border: 1px solid var(--peimary-color);
+    margin-top: 100px;
+}
+
+
+
+/* features */
+#features {
+    background: var(--bg-section);
+
+}
 
 .feature-card {
-    background: var(--peimary-hover) !important;
+    background: var(--first-background);
     border-radius: var(--radius);
+    overflow: hidden;
+    border: 1.5px solid var(--border);
+    transition: all var(--transition);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-6px);
+}
+
+.feature-thumb {
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding: 0;
+}
 
 
+.feature-thumb img {
+    width: 250px;
+    display: block;
+}
+
+.bi-arrow-right {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-arrow-right:hover {
+    transform: translateY(-2px);
+}
+
+.section-title {
+    font-size: 3.7rem;
+    line-height: 0.99;
+    letter-spacing: -0.01em;
+    margin-bottom: 14px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.section-sub {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 520px;
+    margin-bottom: 36px;
+    line-height: 2;
+    justify-content: center;
+}
+
+/* About US */
+#Fashion {
+    background: var(--first-background);
+
+}
+
+.why-image {
+    border-radius: 24px;
+    margin: 40px 2px;
+    background: linear-gradient(145deg, #e6e2de, #dfceba, #ad9885);
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    box-sizing: var(--shadow-lg);
 }

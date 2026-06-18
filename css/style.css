@@ -41,10 +41,32 @@ a {
     color: #fff;
 }
 
+/* icons */
+
+.icon {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    gap: 8px;
+    padding: 0px 10px;
+}
+
+.icon i {
+    color: #000000;
+}
+
+.icon:hover {
+    transform: translateY(-2px);
+}
+
+
 #top-header a {
     color: #000000;
-    opacity: .88;
+    opacity: .99;
     transition: opacity var(--transition);
+
 }
 
 #top-header a:hover {
@@ -56,7 +78,7 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 35px;
+    width: 30px;
     height: 30px;
     border-radius: 50%;
     background: #F9F8F6;
@@ -96,14 +118,19 @@ a {
 
 }
 
+
+
 .nav-link {
     font-family: "sora", sans-serif;
     font-weight: 500;
-    font-size: 0.88rem;
+    font-size: 0.98rem;
     color: var(--text-primary) !important;
     border-radius: 8px;
     transition: color var(--transition);
     background: var(--transition);
+    position: relative;
+    justify-content: center;
+    justify-items: center;
 
 
 }
@@ -111,7 +138,7 @@ a {
 .nav-link:hover,
 .nav-link.active {
     color: var(--peimary-color) !important;
-    background: rgba(37, 99, 193, 0.07);
+    background: #fefaf5;
 
 
 }
@@ -124,12 +151,13 @@ a {
     border-radius: 9px;
     padding: 8px 22px;
     transition: all var(--transition);
+
 }
 
 .btn-nav-signin:hover {
     background: var(--transition);
     transform: translateY(-1px);
-    color: #fff;
+    color: #ffffff;
     box-shadow: 0 4px 12px rgba(37, 99, 235, .3);
 }
 
