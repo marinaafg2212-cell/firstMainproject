@@ -35,7 +35,7 @@ a {
 }
 
 #top-header {
-    background-color: var(--peimary-color);
+    background-color: #bfb0a0;
     padding: 10px 0;
     font-size: 13px;
     color: #fff;
@@ -158,7 +158,7 @@ a {
     background: var(--transition);
     transform: translateY(-1px);
     color: #ffffff;
-    box-shadow: 0 4px 12px rgba(37, 99, 235, .3);
+    box-shadow: 0 4px 12px rgba(142, 119, 84, 0.3);
 }
 
 .btn-nav-BuyuS {

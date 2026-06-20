@@ -3,7 +3,7 @@
             #F9F8F4 10%,
             #F9F8F9 45%,
             #F9F8F6 100%);
-    padding: 50px 0px;
+    padding: 0px 0px;
     position: relative;
     overflow: hidden;
 
@@ -75,7 +75,7 @@
 
 #bi-arrow-right {
     color: #EFE9E3;
-    font-weight: 100px;
+
 
 }
 
@@ -139,7 +139,7 @@
 /* work */
 .stat-card {
     top: 0;
-
+    padding: 0;
 
 }
 
@@ -157,9 +157,9 @@
     text-transform: uppercase;
     padding: 7px 16px;
     border-radius: 50px;
-    margin-bottom: 10px;
+
     border: 1px solid var(--peimary-color);
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 
@@ -167,7 +167,7 @@
 /* features */
 #features {
     background: var(--bg-section);
-
+    padding-bottom: 10px;
 }
 
 .feature-card {
@@ -224,6 +224,7 @@
     letter-spacing: -0.01em;
     margin-bottom: 14px;
     font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
 
 }
 
@@ -238,7 +239,8 @@
 
 /* About US */
 #Fashion {
-    background: var(--first-background);
+    background: var(--bg-section);
+    padding-bottom: 0px;
 
 }
 
@@ -252,4 +254,47 @@
     position: relative;
     overflow: hidden;
     box-sizing: var(--shadow-lg);
+}
+
+/* sataisttics */
+
+#statisttcs {
+    background: var(--first-background);
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.stats-counter {
+    padding: 30px 14px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.stats-counter .num {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 505;
+    color: #000;
+    line-height: 1;
+    display: block;
+}
+
+.stats-counter .lbl {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.stats-divider {
+    width: 1px;
+    align-self: stretch;
+    border-left: 1px solid #ad9885;
+}
+
+.stats-icon {
+    color: #ad9885;
+    font-size: 3rem;
+    padding-bottom: 10px;
 }
