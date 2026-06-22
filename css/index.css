@@ -9,8 +9,6 @@
 
 }
 
-
-
 .hero-badge {
     display: inline-flex;
     align-items: center;
@@ -143,7 +141,7 @@
 
 }
 
-/* feature */
+/* feature ======================================================================================*/
 .section-tag {
     display: inline-flex;
     align-items: center;
@@ -164,7 +162,7 @@
 
 
 
-/* features */
+/* features================================================================================== */
 #features {
     background: var(--bg-section);
     padding-bottom: 10px;
@@ -237,7 +235,7 @@
     justify-content: center;
 }
 
-/* About US */
+/* About US ================================================================================*/
 #Fashion {
     background: var(--bg-section);
     padding-bottom: 0px;
@@ -256,7 +254,7 @@
     box-sizing: var(--shadow-lg);
 }
 
-/* sataisttics */
+/* sataisttics =========================================================================*/
 
 #statisttcs {
     background: var(--first-background);
@@ -297,4 +295,92 @@
     color: #ad9885;
     font-size: 3rem;
     padding-bottom: 10px;
+}
+
+/* Customer idea =========================================================================*/
+
+#testimonials {
+    background: var(--bg-section);
+    padding-bottom: 0px;
+    margin-bottom: 80px;
+}
+
+.testimonials-card {
+    background: var(--first-background);
+    border-radius: var(--radius);
+    padding: 32px 28px;
+    border: 1.5px solid var(--border);
+    height: 100%;
+    position: relative;
+    transition: all var(--transition);
+    overflow: hidden;
+
+}
+
+.image-cutomer {
+    background: #ad9885;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+
+}
+
+.C-reviwe {
+    font-size: 18px;
+    padding: 15px;
+    margin: 0;
+}
+
+.C-name {
+
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.testimonials-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-6px);
+    border-color: #ad9885;
+}
+
+
+
+/* last collection */
+#hero1 {
+
+    position: relative;
+    overflow: hidden;
+    background: var(--first-background);
+    margin: 5px 80px;
+    height: 100%;
+
+    margin-bottom: 80px;
+
+    border-radius: var(--radius);
+
+
+
+}
+
+.image-collection {
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: 0;
+    right: 0%;
+    height: 400px;
+    min-height: 400px;
+    align-items: right;
+    width: 400px;
+    padding-top: 0;
+
+
+}
+
+#hero1:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-6px);
+
 }
