@@ -1,0 +1,45 @@
+.why-feature {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    margin-bottom: 28px;
+}
+
+.why-icon {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+    border-radius: 14px;
+    background: #ad9885;
+    transition: all var(--peimary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.why-feature:hover .why-icon {
+    background: var(--peimary-hover);
+    color: #000;
+    transform: scale(1.1);
+}
+
+.why-feature h5 {
+    font-size: 0.97rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.why-feature p {
+    font-size: 0.87rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+#statisttcs1 {
+
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+}

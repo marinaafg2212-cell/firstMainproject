@@ -60,6 +60,14 @@ a {
 .icon:hover {
     transform: translateY(-2px);
 }
+/* email */
+.email{
+    color: #000000;
+
+}
+.email2{
+    color: #000000;
+}
 
 
 
